@@ -61,6 +61,6 @@
 
 扫描界面为*com.zxing.activity.CaptureActivity*，界面布局为*\res\layoutact_capture.xml*，请不要改变*SurfaceView*和*com.zxing.view.ViewfinderView*的大小，**不然会导致界面拉伸从而无法扫描**，正确做法是使用**RelativeLayout**or**FrameLayout**在界面的*上方*放置你所需要显示的控件，比如开启闪光灯按钮
 
-**** 注意
+#### 注意
 
 由于二维码扫描需要使用到相机权限，所以如果你的项目*targetSdkVersion>=23 Android Version >= 6.0*,请使用动态申请相机权限.
