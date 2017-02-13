@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- scan code -->
+    <color name="viewfinder_frame">#23B0E9</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#ffff00</color>
+    <color name="scan_hint_color">#ffffff</color>
+    <color name="scan_line_color">#23B0E9</color>
+
+</resources>

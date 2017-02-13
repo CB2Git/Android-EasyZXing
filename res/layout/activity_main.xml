@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/main_scan_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描二维码" />
+
+    <Button
+        android:id="@+id/main_scan_local_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描本地相册里面的二维码" />
+
+    <EditText
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入测试文字"
+        android:text="这是测试文字:www.27house.cn" />
+
+    <Button
+        android:id="@+id/main_create_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成二维码" />
+
+    <Button
+        android:id="@+id/main_create_logo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成带logo的二维码" />
+
+    <ImageView
+        android:id="@+id/main_qr_code"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:background="#ffff00" />
+
+</LinearLayout>
