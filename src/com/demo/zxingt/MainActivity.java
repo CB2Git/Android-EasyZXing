@@ -140,7 +140,7 @@ public class MainActivity extends Activity implements OnClickListener {
             }
         }
         // 扫描的是本地图片
-        if (requestCode == ZXScanResult.SCAN_LOCAL && resultCode == ZXScanResult.SCAN_SUCCESS) {
+        else if (requestCode == ZXScanResult.SCAN_LOCAL && resultCode == ZXScanResult.SCAN_SUCCESS) {
             Uri selectedImage = data.getData();
             String[] filePathColumn = {
                     MediaStore.Images.Media.DATA
