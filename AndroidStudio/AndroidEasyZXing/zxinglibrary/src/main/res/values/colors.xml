@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- scan code -->
+    <color name="zxing_viewfinder_frame">#23B0E9</color>
+    <color name="zxing_viewfinder_mask">#60000000</color>
+    <color name="zxing_result_view">#b0000000</color>
+    <color name="zxing_possible_result_points">#00000000</color>
+    <color name="zxing_scan_hint_color">#ffffff</color>
+    <color name="zxing_scan_line_color">#23B0E9</color>
+
+</resources>

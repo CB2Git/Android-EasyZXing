@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onScanQRCode"
+        android:text="扫描二维码"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onScanQRCode2"
+        android:text="无限扫描二维码"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onScanQRCode3"
+        android:text="扫描二维码(使用回调形式)"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onScanQRCodeLocal"
+        android:text="扫描本地相册二维码"/>
+
+    <EditText
+        android:id="@+id/main_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入测试文字"
+        android:text="这是测试文字:www.27house.cn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCreateQRCode1"
+        android:text="生成二维码"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCreateQRCode2"
+        android:text="生成带logo的二维码"/>
+
+    <ImageView
+        android:id="@+id/main_qr_code_image"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:background="#ffff00"/>
+
+</LinearLayout>

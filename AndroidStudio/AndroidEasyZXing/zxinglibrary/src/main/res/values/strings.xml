@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZXingLibrary</string>
+    <string name="zxing_scan_hint">将取景框对准二维码即可自动扫描</string>
+    <string name="zxing_must_granted">必须授予摄像头权限才能继续操作</string>
+    <string name="zxing_no_granted">没有使用摄像头权限,无法继续操作</string>
+    <string name="zxing_tip">提示</string>
+    <string name="zxing_confirm">确认</string>
+    <string name="zxing_reject">取消</string>
+    <string name="zxing_retry">重试</string>
+    <string name="zxing_sweep_error">解析错误，请选择正确的二维码图片</string>
+</resources>
