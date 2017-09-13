@@ -1,6 +1,6 @@
 ### 简化版Zxing for Android
 
-
+> Eclipse形式已经弃用，请查看Android Studio Library形式
 
 #### 针对人群
 
