@@ -3,11 +3,11 @@
 
 #### demo截图
 
-![demo Screenshot](/Screenshot/Screenshot.png)
+![demo Screenshot](/AndroidStudio/Screenshot/Screenshot.png)
 
 #### demo apk 
 
-[EasyZXingDemo.apk](/Screenshot/EasyZXingDemo.apk)
+[EasyZXingDemo.apk](/AndroidStudio/Screenshot/EasyZXingDemo.apk)
 
 
 创建自己的Activity继承自`org.zxinglibrary.zxing.activity.CaptureActivity`
